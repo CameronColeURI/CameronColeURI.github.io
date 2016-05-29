@@ -3,32 +3,20 @@
 <head>
 <title>ToDoList</title>
 <script
-src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script
-src="todoscript.js"></script>
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="todoscript.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<style>
-h1 {
-	text-align: center;
-	font-size: 70px;
-	color: red;
-}
-body {
-		background-color: #8FD0E2;
-		text-align:center;
-}
-ul {
- list-style: none;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 
 <body>
 	<h1>To-Do List</h1>
 	<ul id='todolist'>
-		<li><input type="checkbox" class = "done">Clean Room <button class="delete">Delete</button></li>
+		<li><input type="checkbox" class="done">Clean Room
+			<button class="delete">Delete</button></li>
 	</ul>
-	<input type="text" id="new-text"/>
+	<input type="text" id="new-text" />
 	<button id="add">Add</button>
 </body>
 
